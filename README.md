@@ -1,7 +1,9 @@
 # PTTKGT
 Giảng viên: Nguyễn Văn Huy
-
-Danh sách thành viên:
-1.  Nguyễn Hữu Quý        CN14B     1451120132
-2.  Nguyễn Thanh Tùng     CN14B     1451120137
-3.  Đỗ Lương Thành Đào    CN14B     1451120091
+ 
+<table>
+<caption>Danh sách thành viên:</caption>
+<tr><td>1</td><td>Nguyễn Hữu Quý</td><td>CN14B</td><td>1451120132</td></tr>
+<tr><td>2</td><td>Nguyễn Thanh Tùng</td><td>CN14B</td><td>1451120137</td></tr>
+<tr><td>3</td><td>Đỗ Lương Thành Đào</td><td>CN14B</td><td>1451120091</td></tr>
+</table>
