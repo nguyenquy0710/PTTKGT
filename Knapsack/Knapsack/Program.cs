@@ -38,28 +38,51 @@ namespace Knapsack
         }
         static void Main(string[] args)
         {
-            Console.Write("Nhap so do vat: ");
-            n = int.Parse(Console.ReadLine());
-            chon = new int[n];
-            optChon = new int[n];
-            kl = new double[n];
-            gt = new double[n];
-            Console.Write("Nhap khoi luong toi da ma cai tui co the mang: ");
-            maxKL = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap khoi luong va gia tri tung do vat");
-            for (int i = 0; i < n; i++)
+            XuLyKnapsack();
+        }
+        static private void InputDouble(double ipd)
+        {
+            if (!double.TryParse(Console.ReadLine(), out ipd))
             {
-                Console.Write("Khoi luong cua do vat thu {0} la: ", i + 1);
-                kl[i] = double.Parse(Console.ReadLine());
-                Console.Write("Gia tri cua do vat thu {0} la: ", i + 1);
-                gt[i] = double.Parse(Console.ReadLine());
+                Console.WriteLine("Ban vui long nhap vao mot so thuc\n");
+                InputDouble(n);
             }
-            Knapsack(0);
-            Console.WriteLine("Tong gia tri lon nhat la: " + optGT);
-            Console.Write("Nhung vat duoc chon la: ");
-            for (int i = 0; i < n; i++)
-                if (optChon[i] == 1) Console.Write((i + 1) + " ");
-            Console.ReadKey();
+        }
+        private static void XuLyKnapsack()
+        {
+            Console.Write("Nhap so do vat: ");
+            //n = int.Parse(Console.ReadLine());
+            if (int.TryParse(Console.ReadLine(), out n))
+            {
+                chon = new int[n];
+                optChon = new int[n];
+                kl = new double[n];
+                gt = new double[n];
+                Console.Write("Nhap khoi luong toi da ma cai tui co the mang: ");
+                //maxKL = double.Parse(Console.ReadLine());
+                InputDouble(maxKL);
+                Console.WriteLine("Nhap khoi luong va gia tri tung do vat");
+                for (int i = 0; i < n; i++)
+                {
+                    Console.Write("Khoi luong cua do vat thu {0} la: ", i + 1);
+                    //kl[i] = double.Parse(Console.ReadLine());
+                    InputDouble(kl[i]);
+                    Console.Write("Gia tri cua do vat thu {0} la: ", i + 1);
+                    //gt[i] = double.Parse(Console.ReadLine());
+                    InputDouble(gt[i]);
+                }
+                Knapsack(0);
+                Console.WriteLine("Tong gia tri lon nhat la: " + optGT);
+                Console.Write("Nhung vat duoc chon la: ");
+                for (int i = 0; i < n; i++)
+                    if (optChon[i] == 1) Console.Write((i + 1) + " ");
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("So luong do vat bat buoc phai la mot so nguyen\n");
+                XuLyKnapsack();
+            }
         }
     }
 }
