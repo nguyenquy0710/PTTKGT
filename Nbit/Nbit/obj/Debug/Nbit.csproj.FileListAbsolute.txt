@@ -1,1 +1,2 @@
 E:\NguyenQuy\PTTKGT\Nbit\Nbit\bin\Debug\Nbit.exe.config
+E:\NguyenQuy\GroupPTTKGT\Nbit\Nbit\bin\Debug\Nbit.exe.config
