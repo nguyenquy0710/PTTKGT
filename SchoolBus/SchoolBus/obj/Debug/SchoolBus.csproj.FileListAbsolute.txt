@@ -1,0 +1,8 @@
+E:\NguyenQuy\PTTKGT\SchoolBus\SchoolBus\bin\Debug\SchoolBus.exe.config
+E:\NguyenQuy\Starting\SchoolBus\SchoolBus\bin\Debug\SchoolBus.exe.config
+D:\BaiTap\MicrosoftVisualStudio\Starting\SchoolBus\SchoolBus\bin\Debug\SchoolBus.exe.config
+D:\BaiTap\MicrosoftVisualStudio\Starting\SchoolBus\SchoolBus\bin\Debug\SchoolBus.exe
+D:\BaiTap\MicrosoftVisualStudio\Starting\SchoolBus\SchoolBus\bin\Debug\SchoolBus.pdb
+D:\BaiTap\MicrosoftVisualStudio\Starting\SchoolBus\SchoolBus\obj\Debug\SchoolBus.csprojResolveAssemblyReference.cache
+D:\BaiTap\MicrosoftVisualStudio\Starting\SchoolBus\SchoolBus\obj\Debug\SchoolBus.exe
+D:\BaiTap\MicrosoftVisualStudio\Starting\SchoolBus\SchoolBus\obj\Debug\SchoolBus.pdb
