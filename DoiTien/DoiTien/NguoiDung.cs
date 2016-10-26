@@ -33,7 +33,7 @@ namespace DoiTien
             {
                 OutPut kq = new OutPut();
                 kq.setMenhGia(100);
-                kq.setSoLuong((int)temp / 100);
+                kq.setSoLuong((long)temp / 100);
                 ketQua.Add(kq);
                 temp -= kq.getMenhGia() * kq.getSoLuong();
             }
@@ -41,7 +41,7 @@ namespace DoiTien
             {
                 OutPut kq = new OutPut();
                 kq.setMenhGia(50);
-                kq.setSoLuong((int)temp / 50);
+                kq.setSoLuong((long)temp / 50);
                 ketQua.Add(kq);
                 temp -= kq.getMenhGia() * kq.getSoLuong();
             }
@@ -49,7 +49,7 @@ namespace DoiTien
             {
                 OutPut kq = new OutPut();
                 kq.setMenhGia(20);
-                kq.setSoLuong((int)temp / 20);
+                kq.setSoLuong((long)temp / 20);
                 ketQua.Add(kq);
                 temp -= kq.getMenhGia() * kq.getSoLuong();
             }
@@ -57,7 +57,7 @@ namespace DoiTien
             {
                 OutPut kq = new OutPut();
                 kq.setMenhGia(10);
-                kq.setSoLuong((int)temp / 10);
+                kq.setSoLuong((long)temp / 10);
                 ketQua.Add(kq);
                 temp -= kq.getMenhGia() * kq.getSoLuong();
             }

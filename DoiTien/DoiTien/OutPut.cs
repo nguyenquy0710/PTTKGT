@@ -9,7 +9,7 @@ namespace DoiTien
     class OutPut
     {
         private double menhGia;
-        private int soLuong;
+        private long soLuong;
         public void setMenhGia(double n)
         {
             this.menhGia = n;
@@ -18,11 +18,11 @@ namespace DoiTien
         {
             return this.menhGia;
         }
-        public void setSoLuong(int n)
+        public void setSoLuong(long n)
         {
             this.soLuong = n;
         }
-        public int getSoLuong()
+        public long getSoLuong()
         {
             return this.soLuong;
         }

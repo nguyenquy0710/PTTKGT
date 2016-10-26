@@ -13,14 +13,14 @@ namespace DoiTien
         {
             List<OutPut> list = new List<OutPut>();
             NguoiDung user = new NguoiDung();
-            user.setSoTien(1000);
-
+            user.setSoTien(57890);
+            Console.WriteLine("So tien ban vua nhap la: {0} VND", user.getSoTien());
             Stopwatch st1 = new Stopwatch();
             st1.Start();
             //xem thoi gian ham chay la bao lau
             list = user.Change(user.getSoTien());
             st1.Stop();
-            
+
             foreach (OutPut o in list)
             {
                 Console.WriteLine("To tien " + o.getMenhGia() + "K bang " + o.getSoLuong());
