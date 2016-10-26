@@ -1,0 +1,6 @@
+E:\NguyenQuy\Starting\DoiTien\DoiTien\bin\Debug\DoiTien.exe.config
+E:\NguyenQuy\Starting\DoiTien\DoiTien\obj\Debug\DoiTien.csprojResolveAssemblyReference.cache
+E:\NguyenQuy\Starting\DoiTien\DoiTien\bin\Debug\DoiTien.exe
+E:\NguyenQuy\Starting\DoiTien\DoiTien\bin\Debug\DoiTien.pdb
+E:\NguyenQuy\Starting\DoiTien\DoiTien\obj\Debug\DoiTien.exe
+E:\NguyenQuy\Starting\DoiTien\DoiTien\obj\Debug\DoiTien.pdb
