@@ -13,7 +13,7 @@ namespace DoiTien
         {
             List<OutPut> list = new List<OutPut>();
             NguoiDung user = new NguoiDung();
-            user.setSoTien(15463128410);
+            user.setSoTien(1000);
 
             Stopwatch st1 = new Stopwatch();
             st1.Start();

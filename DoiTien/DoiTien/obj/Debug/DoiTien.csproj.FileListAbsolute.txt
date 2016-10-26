@@ -4,3 +4,9 @@ E:\NguyenQuy\Starting\DoiTien\DoiTien\bin\Debug\DoiTien.exe
 E:\NguyenQuy\Starting\DoiTien\DoiTien\bin\Debug\DoiTien.pdb
 E:\NguyenQuy\Starting\DoiTien\DoiTien\obj\Debug\DoiTien.exe
 E:\NguyenQuy\Starting\DoiTien\DoiTien\obj\Debug\DoiTien.pdb
+E:\NguyenQuy\PTTKGT\DoiTien\DoiTien\bin\Debug\DoiTien.exe.config
+E:\NguyenQuy\PTTKGT\DoiTien\DoiTien\obj\Debug\DoiTien.exe
+E:\NguyenQuy\PTTKGT\DoiTien\DoiTien\obj\Debug\DoiTien.pdb
+E:\NguyenQuy\PTTKGT\DoiTien\DoiTien\bin\Debug\DoiTien.exe
+E:\NguyenQuy\PTTKGT\DoiTien\DoiTien\bin\Debug\DoiTien.pdb
+E:\NguyenQuy\PTTKGT\DoiTien\DoiTien\obj\Debug\DoiTien.csprojResolveAssemblyReference.cache
